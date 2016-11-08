@@ -18,5 +18,6 @@ be pruned, allocating and deallocatig memory while the program is running.
 **Doubly-linked** lists:
 * [std::list](http://www.cplusplus.com/reference/list/list/list/)
 * [List description](http://www.cplusplus.com/reference/list/list/)
+
 **Single-linked** lists:
 * [std::forward_list](http://www.cplusplus.com/reference/forward_list/forward_list/)
