@@ -15,6 +15,6 @@ be pruned, allocating and deallocatig memory while the program is running.
 # Implementation
 
 ## c++
-[std::list](http://www.cplusplus.com/reference/list/list/list/), 
-[List description](http://www.cplusplus.com/reference/list/list/)
-List containers are implemented as doubly-linked lists
+List containers are implemented as doubly-linked lists.
+* [std::list](http://www.cplusplus.com/reference/list/list/list/), 
+* [List description](http://www.cplusplus.com/reference/list/list/)
