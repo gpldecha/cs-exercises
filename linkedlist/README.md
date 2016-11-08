@@ -6,5 +6,15 @@ be pruned, allocating and deallocatig memory while the program is running.
 * Easy insertion and deletion.
 * Stack and queues can be implemented as linked lists.
 * Itemise can be added or removed from the middle of list.
-cons:
-*  No random access
+**cons**:
+* Extra memory to store pointers.
+* Sequential access only (no direct access).
+* Non contiguous storage of list elements.
+* Hard to travers backwards single linked list.
+
+# Implementation
+
+## c++
+[std::list](http://www.cplusplus.com/reference/list/list/list/), 
+[List description](http://www.cplusplus.com/reference/list/list/)
+List containers are implemented as doubly-linked lists
