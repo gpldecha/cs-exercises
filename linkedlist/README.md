@@ -1,6 +1,6 @@
 # Properties
 
-pros:
+**pros**:
 * Linked lists are a dynamic data structure, which can grow and 
 be pruned, allocating and deallocatig memory while the program is running.
 * Easy insertion and deletion.
