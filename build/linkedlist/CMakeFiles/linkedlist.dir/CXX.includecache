@@ -6,11 +6,5 @@
 
 #IncludeRegexTransform: 
 
-../trees/include/bstree.h
-
-/home/guillaume/cpp_work_space/cs-exercises/trees/src/main.cpp
-iostream
--
-bstree.h
--
+/home/guillaume/cpp_work_space/cs-exercises/linkedlist/src/main.cpp
 

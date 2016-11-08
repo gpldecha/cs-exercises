@@ -1,0 +1,13 @@
+
+set(INCLUDE_DIR         ${CMAKE_CURRENT_SOURCE_DIR}/include     )
+set(SRC_DIR             ${CMAKE_CURRENT_SOURCE_DIR}/src         )
+
+
+
+
+set(STRING_SRC ${SRC_DIR}/main.cpp  )
+set(STRING_INC ${INCLUDE_DIR}/mirror.h  )
+
+include_directories(${INCLUDE_DIR})
+
+add_executable(string_examples ${STRING_SRC} ${STRING_INC})

@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../string/include/mirror.h
+string
+-
+functional
+-
+iostream
+-
+
+/home/guillaume/cpp_work_space/cs-exercises/string/src/main.cpp
+mirror.h
+/home/guillaume/cpp_work_space/cs-exercises/string/src/mirror.h
+iostream
+-
+

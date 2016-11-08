@@ -5,7 +5,7 @@
       <Option title="cs-exercises" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\trees\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\linkedlist\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/guillaume/cpp_work_space/cs-exercises/build" />
@@ -27,48 +27,48 @@
             <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
-      <Target title="tree">
-         <Option output="/home/guillaume/cpp_work_space/cs-exercises/bin/tree" prefix_auto="0" extension_auto="0" />
+      <Target title="linkedlist">
+         <Option output="/home/guillaume/cpp_work_space/cs-exercises/bin/linkedlist" prefix_auto="0" extension_auto="0" />
          <Option working_dir="/home/guillaume/cpp_work_space/cs-exercises/bin" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/trees/include" />
+            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/linkedlist/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/trees/Makefile&quot;  VERBOSE=1 tree" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/trees/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/trees/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/trees/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/linkedlist/Makefile&quot;  VERBOSE=1 linkedlist" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/linkedlist/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/linkedlist/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/linkedlist/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
-      <Target title="tree/fast">
-         <Option output="/home/guillaume/cpp_work_space/cs-exercises/bin/tree" prefix_auto="0" extension_auto="0" />
+      <Target title="linkedlist/fast">
+         <Option output="/home/guillaume/cpp_work_space/cs-exercises/bin/linkedlist" prefix_auto="0" extension_auto="0" />
          <Option working_dir="/home/guillaume/cpp_work_space/cs-exercises/bin" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
          <Compiler>
-            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/trees/include" />
+            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/linkedlist/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/trees/Makefile&quot;  VERBOSE=1 tree/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/trees/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/trees/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/trees/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/linkedlist/Makefile&quot;  VERBOSE=1 linkedlist/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/linkedlist/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/linkedlist/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/linkedlist/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/trees/src/main.cpp">
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/linkedlist/src/main.cpp">
       </Unit>
-      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/trees/include/bstree.h">
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/linkedlist/include/llist.h">
       </Unit>
       <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
-      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/trees/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\trees\" />
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/linkedlist/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\linkedlist\" />
       </Unit>
    </Project>
 </CodeBlocks_project_file>

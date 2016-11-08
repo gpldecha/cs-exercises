@@ -56,53 +56,53 @@ CMAKE_SOURCE_DIR = /home/guillaume/cpp_work_space/cs-exercises
 CMAKE_BINARY_DIR = /home/guillaume/cpp_work_space/cs-exercises/build
 
 #=============================================================================
-# Directory level rules for directory trees
+# Directory level rules for directory linkedlist
 
 # Convenience name for "all" pass in the directory.
-trees/all: trees/CMakeFiles/tree.dir/all
-.PHONY : trees/all
+linkedlist/all: linkedlist/CMakeFiles/linkedlist.dir/all
+.PHONY : linkedlist/all
 
 # Convenience name for "clean" pass in the directory.
-trees/clean: trees/CMakeFiles/tree.dir/clean
-.PHONY : trees/clean
+linkedlist/clean: linkedlist/CMakeFiles/linkedlist.dir/clean
+.PHONY : linkedlist/clean
 
 # Convenience name for "preinstall" pass in the directory.
-trees/preinstall:
-.PHONY : trees/preinstall
+linkedlist/preinstall:
+.PHONY : linkedlist/preinstall
 
 #=============================================================================
-# Target rules for target trees/CMakeFiles/tree.dir
+# Target rules for target linkedlist/CMakeFiles/linkedlist.dir
 
 # All Build rule for target.
-trees/CMakeFiles/tree.dir/all:
-	$(MAKE) -f trees/CMakeFiles/tree.dir/build.make trees/CMakeFiles/tree.dir/depend
-	$(MAKE) -f trees/CMakeFiles/tree.dir/build.make trees/CMakeFiles/tree.dir/build
+linkedlist/CMakeFiles/linkedlist.dir/all:
+	$(MAKE) -f linkedlist/CMakeFiles/linkedlist.dir/build.make linkedlist/CMakeFiles/linkedlist.dir/depend
+	$(MAKE) -f linkedlist/CMakeFiles/linkedlist.dir/build.make linkedlist/CMakeFiles/linkedlist.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles  1
-	@echo "Built target tree"
-.PHONY : trees/CMakeFiles/tree.dir/all
+	@echo "Built target linkedlist"
+.PHONY : linkedlist/CMakeFiles/linkedlist.dir/all
 
 # Include target in all.
-all: trees/CMakeFiles/tree.dir/all
+all: linkedlist/CMakeFiles/linkedlist.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-trees/CMakeFiles/tree.dir/rule: cmake_check_build_system
+linkedlist/CMakeFiles/linkedlist.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 trees/CMakeFiles/tree.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 linkedlist/CMakeFiles/linkedlist.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles 0
-.PHONY : trees/CMakeFiles/tree.dir/rule
+.PHONY : linkedlist/CMakeFiles/linkedlist.dir/rule
 
 # Convenience name for target.
-tree: trees/CMakeFiles/tree.dir/rule
-.PHONY : tree
+linkedlist: linkedlist/CMakeFiles/linkedlist.dir/rule
+.PHONY : linkedlist
 
 # clean rule for target.
-trees/CMakeFiles/tree.dir/clean:
-	$(MAKE) -f trees/CMakeFiles/tree.dir/build.make trees/CMakeFiles/tree.dir/clean
-.PHONY : trees/CMakeFiles/tree.dir/clean
+linkedlist/CMakeFiles/linkedlist.dir/clean:
+	$(MAKE) -f linkedlist/CMakeFiles/linkedlist.dir/build.make linkedlist/CMakeFiles/linkedlist.dir/clean
+.PHONY : linkedlist/CMakeFiles/linkedlist.dir/clean
 
 # clean rule for target.
-clean: trees/CMakeFiles/tree.dir/clean
+clean: linkedlist/CMakeFiles/linkedlist.dir/clean
 .PHONY : clean
 
 #=============================================================================

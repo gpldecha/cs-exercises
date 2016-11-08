@@ -14,4 +14,7 @@ set(LIBRARY_OUTPUT_PATH     ${PROJECT_SOURCE_DIR}/lib                           
 
 message(status "    CMAKE_INSTALL_PREFIX:" ${CMAKE_INSTALL_PREFIX})
 
-add_subdirectory(trees)
+#add_subdirectory(trees)
+#add_subdirectory(string)
+add_subdirectory(linkedlist)
+
