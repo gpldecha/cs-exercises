@@ -1,18 +1,16 @@
 # Sorting
 
 * Selection sort
-
-..* time: O(N²)
-..* space: O(N)
+  time: O(N²)
+  space: O(N)
 
 * Insertion sort
 
-⋅⋅* time: O(1/4 N²)
-..* space: O(1/4 N^2)
+ time: O(1/4 N²)
+ space: O(1/4 N^2)
 
 * Shell sort
-
-⋅⋅* time: O(N^(3/2))
+ time: O(N^(3/2))
  
  
 # Resources
