@@ -72,14 +72,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles /home/guillaume/cpp_work_space/cs-exercises/build/sorting/CMakeFiles/progress.marks
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(MAKE) -f CMakeFiles/Makefile2 sorting/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) -f CMakeFiles/Makefile2 clean
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(MAKE) -f CMakeFiles/Makefile2 sorting/clean
 .PHONY : clean
 
 # The main clean target
@@ -88,31 +88,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(MAKE) -f CMakeFiles/Makefile2 sorting/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) -f CMakeFiles/Makefile2 preinstall
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(MAKE) -f CMakeFiles/Makefile2 sorting/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named sorting
+# Convenience name for target.
+sorting/CMakeFiles/sorting.dir/rule:
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(MAKE) -f CMakeFiles/Makefile2 sorting/CMakeFiles/sorting.dir/rule
+.PHONY : sorting/CMakeFiles/sorting.dir/rule
 
-# Build rule for target.
-sorting: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 sorting
+# Convenience name for target.
+sorting: sorting/CMakeFiles/sorting.dir/rule
 .PHONY : sorting
 
 # fast build rule for target.
 sorting/fast:
-	$(MAKE) -f sorting/CMakeFiles/sorting.dir/build.make sorting/CMakeFiles/sorting.dir/build
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(MAKE) -f sorting/CMakeFiles/sorting.dir/build.make sorting/CMakeFiles/sorting.dir/build
 .PHONY : sorting/fast
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(MAKE) -f sorting/CMakeFiles/sorting.dir/build.make sorting/CMakeFiles/sorting.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(MAKE) -f sorting/CMakeFiles/sorting.dir/build.make sorting/CMakeFiles/sorting.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(MAKE) -f sorting/CMakeFiles/sorting.dir/build.make sorting/CMakeFiles/sorting.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -123,6 +148,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... sorting"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
@@ -134,6 +162,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/guillaume/cpp_work_space/cs-exercises/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

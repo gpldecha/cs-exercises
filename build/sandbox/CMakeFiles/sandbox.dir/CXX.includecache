@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../sandbox/include/binarygap.h
+bitset
+-
+string
+-
+iostream
+-
+
+../sandbox/include/counting.h
+vector
+-
+
+../sandbox/include/oddoccurencesinarray.h
+iostream
+-
+
+../sandbox/include/sorting.h
+
+../sandbox/include/tapeEquilibrium.h
+iostream
+-
+cmath
+-
+
+/home/guillaume/cpp_work_space/cs-exercises/sandbox/src/main.cpp
+binarygap.h
+/home/guillaume/cpp_work_space/cs-exercises/sandbox/src/binarygap.h
+oddoccurencesinarray.h
+/home/guillaume/cpp_work_space/cs-exercises/sandbox/src/oddoccurencesinarray.h
+tapeEquilibrium.h
+/home/guillaume/cpp_work_space/cs-exercises/sandbox/src/tapeEquilibrium.h
+counting.h
+/home/guillaume/cpp_work_space/cs-exercises/sandbox/src/counting.h
+sorting.h
+/home/guillaume/cpp_work_space/cs-exercises/sandbox/src/sorting.h
+

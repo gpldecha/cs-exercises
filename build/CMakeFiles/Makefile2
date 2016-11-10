@@ -56,53 +56,53 @@ CMAKE_SOURCE_DIR = /home/guillaume/cpp_work_space/cs-exercises
 CMAKE_BINARY_DIR = /home/guillaume/cpp_work_space/cs-exercises/build
 
 #=============================================================================
-# Directory level rules for directory linkedlist
+# Directory level rules for directory sorting
 
 # Convenience name for "all" pass in the directory.
-linkedlist/all: linkedlist/CMakeFiles/linkedlist.dir/all
-.PHONY : linkedlist/all
+sorting/all: sorting/CMakeFiles/sorting.dir/all
+.PHONY : sorting/all
 
 # Convenience name for "clean" pass in the directory.
-linkedlist/clean: linkedlist/CMakeFiles/linkedlist.dir/clean
-.PHONY : linkedlist/clean
+sorting/clean: sorting/CMakeFiles/sorting.dir/clean
+.PHONY : sorting/clean
 
 # Convenience name for "preinstall" pass in the directory.
-linkedlist/preinstall:
-.PHONY : linkedlist/preinstall
+sorting/preinstall:
+.PHONY : sorting/preinstall
 
 #=============================================================================
-# Target rules for target linkedlist/CMakeFiles/linkedlist.dir
+# Target rules for target sorting/CMakeFiles/sorting.dir
 
 # All Build rule for target.
-linkedlist/CMakeFiles/linkedlist.dir/all:
-	$(MAKE) -f linkedlist/CMakeFiles/linkedlist.dir/build.make linkedlist/CMakeFiles/linkedlist.dir/depend
-	$(MAKE) -f linkedlist/CMakeFiles/linkedlist.dir/build.make linkedlist/CMakeFiles/linkedlist.dir/build
+sorting/CMakeFiles/sorting.dir/all:
+	$(MAKE) -f sorting/CMakeFiles/sorting.dir/build.make sorting/CMakeFiles/sorting.dir/depend
+	$(MAKE) -f sorting/CMakeFiles/sorting.dir/build.make sorting/CMakeFiles/sorting.dir/build
 	$(CMAKE_COMMAND) -E cmake_progress_report /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles  1
-	@echo "Built target linkedlist"
-.PHONY : linkedlist/CMakeFiles/linkedlist.dir/all
+	@echo "Built target sorting"
+.PHONY : sorting/CMakeFiles/sorting.dir/all
 
 # Include target in all.
-all: linkedlist/CMakeFiles/linkedlist.dir/all
+all: sorting/CMakeFiles/sorting.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-linkedlist/CMakeFiles/linkedlist.dir/rule: cmake_check_build_system
+sorting/CMakeFiles/sorting.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles 1
-	$(MAKE) -f CMakeFiles/Makefile2 linkedlist/CMakeFiles/linkedlist.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 sorting/CMakeFiles/sorting.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles 0
-.PHONY : linkedlist/CMakeFiles/linkedlist.dir/rule
+.PHONY : sorting/CMakeFiles/sorting.dir/rule
 
 # Convenience name for target.
-linkedlist: linkedlist/CMakeFiles/linkedlist.dir/rule
-.PHONY : linkedlist
+sorting: sorting/CMakeFiles/sorting.dir/rule
+.PHONY : sorting
 
 # clean rule for target.
-linkedlist/CMakeFiles/linkedlist.dir/clean:
-	$(MAKE) -f linkedlist/CMakeFiles/linkedlist.dir/build.make linkedlist/CMakeFiles/linkedlist.dir/clean
-.PHONY : linkedlist/CMakeFiles/linkedlist.dir/clean
+sorting/CMakeFiles/sorting.dir/clean:
+	$(MAKE) -f sorting/CMakeFiles/sorting.dir/build.make sorting/CMakeFiles/sorting.dir/clean
+.PHONY : sorting/CMakeFiles/sorting.dir/clean
 
 # clean rule for target.
-clean: linkedlist/CMakeFiles/linkedlist.dir/clean
+clean: sorting/CMakeFiles/sorting.dir/clean
 .PHONY : clean
 
 #=============================================================================

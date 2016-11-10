@@ -16,5 +16,7 @@ message(status "    CMAKE_INSTALL_PREFIX:" ${CMAKE_INSTALL_PREFIX})
 
 #add_subdirectory(trees)
 #add_subdirectory(string)
-add_subdirectory(linkedlist)
+#add_subdirectory(linkedlist)
+#add_subdirectory(sandbox)
+add_subdirectory(sorting)
 
