@@ -1,6 +1,7 @@
 # Sorting
 
 * Selection sort
+
   time: O(N²)
   space: O(N)
 
@@ -10,6 +11,7 @@
  space: O(1/4 N^2)
 
 * Shell sort
+
  time: O(N^(3/2))
  
  
