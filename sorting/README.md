@@ -1,5 +1,5 @@
 # Sorting
-
+## simple sorts
 * Selection sort
 
   time: O(N²)
@@ -13,6 +13,8 @@
 * Shell sort
 
  time: O(N^(3/2))
+ 
+## advanced sorts
  
  
 # Resources
