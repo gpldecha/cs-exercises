@@ -5,7 +5,7 @@
   time: O(N²)
   space: O(N)
 
-* Insertion sort
+* [Insertion sort](https://www.coursera.org/learn/algorithms-part1/lecture/1hYlN/insertion-sort) 
 
  time: O(1/4 N²)
  space: O(1/4 N^2)
