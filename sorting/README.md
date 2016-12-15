@@ -16,6 +16,9 @@
  
 ## advanced sorts
  * [Merge sort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
+ time  : O(N log N)
+ space : O(N)
+ stable : usually
  
 # Resources
 
