@@ -15,7 +15,7 @@
  time: O(N^(3/2))
  
 ## advanced sorts
- 
+ * [Merge sort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
  
 # Resources
 
