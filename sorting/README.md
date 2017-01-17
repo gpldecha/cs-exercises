@@ -22,6 +22,15 @@
   space : O(N)
   
   stable : usually
+  
+  * [Quick sort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
+
+Invented by Tony Hoare, implementations (Lomuto partition scheme, Hoare scheme). The choice of the pivot's position is very important. 
+
+"In the very early versions of quicksort, the leftmost element of the partition would often be chosen as the pivot element. Unfortunately, this causes worst-case behavior on already sorted arrays, which is a rather common use-case...." [Wikipedia]
+
+ time: average 
+
  
 # Resources
 
