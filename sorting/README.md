@@ -35,3 +35,4 @@ Invented by Tony Hoare, implementations (Lomuto partition scheme, Hoare scheme).
 # Resources
 
 * [Introduction to algorithms](https://www.coursera.org/learn/introduction-to-algorithms/home/info)
+* [bigocheatsheet](http://bigocheatsheet.com/)
