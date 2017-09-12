@@ -30,6 +30,13 @@ Invented by Tony Hoare, implementations (Lomuto partition scheme, Hoare scheme).
 "In the very early versions of quicksort, the leftmost element of the partition would often be chosen as the pivot element. Unfortunately, this causes worst-case behavior on already sorted arrays, which is a rather common use-case...." [Wikipedia]
 
  time: average 
+ 
+## priority queue/heap
+
+Efficient for keeping track of the maximum element. Two operations, *pop max*, *insert*.
+
+For N items, the heap algorithm requires no more than 1 + lg N compares for insert and no more than 2 lg N for remove the 
+maximum.
 
  
 # Resources
