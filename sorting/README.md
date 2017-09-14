@@ -39,9 +39,11 @@ Efficient for keeping track of the maximum element. Two operations, *pop max*, *
 
 **Definition** A binary tree is heap-ordered if the key in each node is larger than (or equal to) the keys in that nodes two children (if any).
 
-
-For N items, the heap algorithm requires no more than 1 + lg N compares for insert and no more than 2 lg N for remove the 
-maximum.
+|               |   time        | space  |
+| ------------- |:-------------:| -----:|
+|   worste      | O(N lg N)     | O(1)  |
+|   average     | O(N lg N)     |       |
+|   best        | O(N)          |       |
 
  
 # Resources
