@@ -31,7 +31,7 @@ Invented by Tony Hoare, implementations (Lomuto partition scheme, Hoare scheme).
 
  time: average 
  
-## priority queue/heap
+## heapsort/priority queue
 
 Efficient for keeping track of the maximum element. Two operations, *pop max*, *insert*.
 
@@ -45,6 +45,8 @@ Efficient for keeping track of the maximum element. Two operations, *pop max*, *
 |   average     | O(N lg N)     |       |
 |   best        | O(N)          |       |
 
+* first: a heap data structure is constructed  O(N), (bottom up approach, build sub-heaps)
+* second: sorting 1) swap root of heap with last element of the array, decrease array size and perfom sink operation. O(N lg N).
  
 # Resources
 
