@@ -1,8 +1,5 @@
 # Binary Search Tree (BST)
 
-* runway reservation system (airport has a single runway)
-
-
 |		         | Average	| Worst |
 | ---------- | :-------:| ----: |
 | Space		   | O(n)	    | O(n)  |
