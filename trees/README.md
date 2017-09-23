@@ -3,6 +3,13 @@
 * runway reservation system (airport has a single runway)
 
 
+|		         | Average	| Worst |
+| ---------- | :-------:| ----: |
+| Space		   | O(n)	    | O(n)  |
+| Search		 | O(log n) |	O(n)  |
+| Insert		 | O(log n) |	O(n)  |
+| Delete		 | O(log n) |	O(n)  |
+
 
 # Material
 
