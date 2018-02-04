@@ -14,11 +14,11 @@ Constant time access O(1)
 
 Non-constant time access O(N)
 
-* [deque](http://www.cplusplus.com/reference/deque/deque/): double-ended queue 
+* [std::deque](http://www.cplusplus.com/reference/deque/deque/): double-ended queue 
 
-* [forward_list](http://en.cppreference.com/w/cpp/container/forward_list): singly-linked list
+* [std::forward_list](http://en.cppreference.com/w/cpp/container/forward_list): singly-linked list
 
-* [list](http://en.cppreference.com/w/cpp/container/list): doubly-linked list 
+* [std::list](http://en.cppreference.com/w/cpp/container/list): doubly-linked list 
 
 
 ## Associative containers
