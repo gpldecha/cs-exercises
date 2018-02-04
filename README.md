@@ -6,9 +6,13 @@ A set of cs data structures exercises.
 
 ### Sequence containers
 
+Constant time access O(1)
+
 * array: satic contiguous array  
 
 * vector: dynamic contiguous array 
+
+Non-constant time access O(N)
 
 * deque: double-ended queue 
 
