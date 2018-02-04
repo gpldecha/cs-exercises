@@ -14,7 +14,9 @@ Constant time access O(1)
 
 Non-constant time access O(N)
 
-* [std::deque](http://www.cplusplus.com/reference/deque/deque/): double-ended queue 
+* [std::deque](http://www.cplusplus.com/reference/deque/deque/): double-ended queue.
+    Not guaranteed to store all its elements in contiguous storage locations: accessing elements in a deque by offsetting a   pointer to another element causes undefined behavior.
+
 
 * [std::forward_list](http://en.cppreference.com/w/cpp/container/forward_list): singly-linked list
 
