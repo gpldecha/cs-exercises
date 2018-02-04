@@ -1,8 +1,20 @@
 # cs-exercises
 A set of cs data structures exercises.
 
-# Data strcutures
+# STL Containers
 [STL containers](http://www.cplusplus.com/reference/stl/)
+
+### Sequence containers
+
+* array: satic contiguous array  
+
+* vector: dynamic contiguous array 
+
+* deque: double-ended queue 
+
+* forward_list: singly-linked list
+
+* list: doubly-linked list 
 
 
 ## Associative containers
