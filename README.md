@@ -19,6 +19,10 @@ Non-constant time access O(N)
     Not guaranteed to store all its elements in contiguous storage locations: accessing elements in a deque by offsetting a   pointer to another element causes undefined behavior.
     
     *vector  is the type of sequence that should be used by default. ... deque is the data structure of choice when most insertions and deletions take place at the beginning or at the end of the sequence.* [reference](https://www.codeproject.com/Articles/5425/An-In-Depth-Study-of-the-STL-Deque-Container)
+    
+    * deallocation can take longer to reclaim memory as it is non-contguous. 
+    * if you are planning to use insert(), or have a need for pop_front(), use deque.
+    
 
 
 * [std::forward_list](http://en.cppreference.com/w/cpp/container/forward_list): singly-linked list
