@@ -12,7 +12,7 @@ Constant time access O(1)
 
 * vector: dynamic contiguous array 
 
-Non-constant time access O(N)
+Non-continuous in memory
 
 * [std::deque](http://www.cplusplus.com/reference/deque/deque/): double-ended queue.
 
