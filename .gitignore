@@ -139,4 +139,6 @@ venv.bak/
 
 
 .idea/
+./paths/.idea
 ./paths/.idea/
+./paths/.idea/*
