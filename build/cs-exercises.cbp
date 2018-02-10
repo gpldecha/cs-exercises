@@ -5,7 +5,7 @@
       <Option title="cs-exercises" />
       <Option makefile_is_custom="1" />
       <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;CMake Files\sorting\;" />
+      <Option virtualFolders="CMake Files\;CMake Files\sorting\;CMake Files\stl\;CMake Files\utils\;CMake Files\csgtest\;" />
       <Build>
       <Target title="all">
          <Option working_dir="/home/guillaume/cpp_work_space/cs-exercises/build" />
@@ -59,16 +59,105 @@
             <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/sorting/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
+      <Target title="stl">
+         <Option output="/home/guillaume/cpp_work_space/cs-exercises/bin/stl" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/guillaume/cpp_work_space/cs-exercises/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/stl/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/stl/Makefile&quot;  VERBOSE=1 stl" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/stl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/stl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/stl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="stl/fast">
+         <Option output="/home/guillaume/cpp_work_space/cs-exercises/bin/stl" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/guillaume/cpp_work_space/cs-exercises/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/stl/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/stl/Makefile&quot;  VERBOSE=1 stl/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/stl/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/stl/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/stl/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="csgtests">
+         <Option output="/home/guillaume/cpp_work_space/cs-exercises/bin/csgtests" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/guillaume/cpp_work_space/cs-exercises/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/csgtest/include" />
+            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/sorting/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/csgtest/Makefile&quot;  VERBOSE=1 csgtests" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/csgtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/csgtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/csgtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="csgtests/fast">
+         <Option output="/home/guillaume/cpp_work_space/cs-exercises/bin/csgtests" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/guillaume/cpp_work_space/cs-exercises/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/csgtest/include" />
+            <Add directory="/home/guillaume/cpp_work_space/cs-exercises/sorting/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/csgtest/Makefile&quot;  VERBOSE=1 csgtests/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/csgtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/csgtest/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/guillaume/cpp_work_space/cs-exercises/build/csgtest/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
       </Build>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/csgtest/src/main.cpp">
+      </Unit>
       <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/sorting/src/main.cpp">
       </Unit>
-      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/sorting/include/quicksort.h">
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/stl/src/main.cpp">
+      </Unit>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/csgtest/include/test_sort.hpp">
+      </Unit>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/sorting/include">
+      </Unit>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/sorting/include/insertion_sort.h">
+      </Unit>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/sorting/include/merge_sort.h">
+      </Unit>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/sorting/include/quick_sort.h">
+      </Unit>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/stl/include/stl_examples.h">
       </Unit>
       <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
       <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/sorting/CMakeLists.txt">
           <Option virtualFolder="CMake Files\sorting\" />
+      </Unit>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/stl/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\stl\" />
+      </Unit>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/utils/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\utils\" />
+      </Unit>
+      <Unit filename="/home/guillaume/cpp_work_space/cs-exercises/csgtest/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\csgtest\" />
       </Unit>
    </Project>
 </CodeBlocks_project_file>

@@ -1,1 +1,13 @@
+/home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles/edit_cache.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/CMakeFiles/rebuild_cache.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/searching/CMakeFiles/edit_cache.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/searching/CMakeFiles/rebuild_cache.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/searching/CMakeFiles/bst_example.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/sorting/CMakeFiles/edit_cache.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/sorting/CMakeFiles/rebuild_cache.dir
 /home/guillaume/cpp_work_space/cs-exercises/build/sorting/CMakeFiles/sorting.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/stl/CMakeFiles/rebuild_cache.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/stl/CMakeFiles/edit_cache.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/stl/CMakeFiles/stl.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/utils/CMakeFiles/edit_cache.dir
+/home/guillaume/cpp_work_space/cs-exercises/build/utils/CMakeFiles/rebuild_cache.dir
