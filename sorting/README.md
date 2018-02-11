@@ -4,7 +4,7 @@
 | :---        |     :---:    |            :---:|         :---:|         :---: | :---:      |
 | Bubble      | O(N²)        |                 |  O(N)        |  O(1)         | Yes        |
 | Selection   | O(N²)        |                 |  O(N)        |  O(1)         | Yes        |
-| Merge       | O(N log N)   |                 |  O(N log N)  |  O(1)         | Usually    |
+| Merge       | O(N log N)   |                 |  O(N log N)  |  O(1)         | Yes        |
 
 
 * **Bubble**: 
@@ -24,6 +24,7 @@
  space: O(1/4 N^2)
  
  * **Merge**
+    * Merge sort is often preferred for sorting a linked list. The slow random-access performance of a linked list makes some other algorithms (such as quicksort) perform poorly, and others (such as heapsort) completely impossible.
  
 * **Quick**
   * Invented by Tony Hoare, implementations (Lomuto partition scheme, Hoare scheme). The choice of the pivot's position is very important. 
