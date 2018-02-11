@@ -9,6 +9,7 @@
   
   * can detect of the list is already sorted.
   * the n-th pass finds the n-th largest element. 
+  * *Bubble sort is asymptotically equivalent in running time to insertion sort in the worst case, but the two algorithms differ greatly in the number of swaps necessary.*
 
 
 
