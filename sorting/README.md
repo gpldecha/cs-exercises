@@ -60,4 +60,5 @@ Efficient for keeping track of the maximum element. Two operations, *pop max*, *
 # Resources
 
 * [Introduction to algorithms](https://www.coursera.org/learn/introduction-to-algorithms/home/info)
-* [bigocheatsheet](http://bigocheatsheet.com/)
+* [BigO Cheatsheet](http://bigocheatsheet.com/)
+* [Wikipedia table comparing sort methods](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
