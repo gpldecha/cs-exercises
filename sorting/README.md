@@ -22,24 +22,15 @@
 
  time: O(1/4 N²)
  space: O(1/4 N^2)
-
-## advanced sorts
- * [Merge sort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
  
-  time  : O(N log N)
-  
-  space : O(N)
-  
-  stable : usually
-  
-  * [Quick sort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
-
-Invented by Tony Hoare, implementations (Lomuto partition scheme, Hoare scheme). The choice of the pivot's position is very important. 
+ * **Merge**
+ 
+* **Quick**
+  * Invented by Tony Hoare, implementations (Lomuto partition scheme, Hoare scheme). The choice of the pivot's position is very important. 
 
 "In the very early versions of quicksort, the leftmost element of the partition would often be chosen as the pivot element. Unfortunately, this causes worst-case behavior on already sorted arrays, which is a rather common use-case...." [Wikipedia]
 
- time: average 
- 
+
 ## heapsort/priority queue
 
 Efficient for keeping track of the maximum element. Two operations, *pop max*, *insert*.
@@ -62,3 +53,5 @@ Efficient for keeping track of the maximum element. Two operations, *pop max*, *
 * [Introduction to algorithms](https://www.coursera.org/learn/introduction-to-algorithms/home/info)
 * [BigO Cheatsheet](http://bigocheatsheet.com/)
 * [Wikipedia table comparing sort methods](https://en.wikipedia.org/wiki/Sorting_algorithm#Stability)
+* [Merge sort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
+* [Quick sort](https://www.coursera.org/learn/algorithms-part1/lecture/vjvnC/quicksort)
