@@ -1,9 +1,11 @@
 # Sorting
 
-| Sort        | Time (worst) |  Time (average) | Time (best)  | Space         |      |
-| :---        |     :---:    |            :---:|         :---:|         :---: | :---:|
-| Bubble      | O(N²)        |                 |  O(N)        |  O(1)         | Stable |
-| Selection   | O(N²)        |                 |  O(N)        |  O(1)         |       |
+| Sort        | Time (worst) |  Time (average) | Time (best)  | Space         |   Stable   |
+| :---        |     :---:    |            :---:|         :---:|         :---: | :---:      |
+| Bubble      | O(N²)        |                 |  O(N)        |  O(1)         | Yes        |
+| Selection   | O(N²)        |                 |  O(N)        |  O(1)         | Yes        |
+| Merge       | O(N log N)   |                 |  O(N)        |  O(1)         | Usually    |
+
 
 * **Bubble**: 
   
@@ -12,7 +14,9 @@
   * *Bubble sort is asymptotically equivalent in running time to insertion sort in the worst case, but the two algorithms differ greatly in the number of swaps necessary.*
   * *Bubble sort also interacts poorly with modern CPU hardware. It produces at least twice as many writes as insertion sort, twice as many cache misses, and asymptotically more branch*
 
-
+* **Selection**: 
+  * selection sort almost always outperforms bubble sort.
+  * insertion sort will usually perform about half as many comparisons as selection sort.
 
 * [Insertion sort](https://www.coursera.org/learn/algorithms-part1/lecture/1hYlN/insertion-sort) 
 
