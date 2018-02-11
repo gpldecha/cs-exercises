@@ -4,7 +4,7 @@
 | :---        |     :---:    |            :---:|         :---:|         :---: | :---:      |
 | Bubble      | O(N²)        |                 |  O(N)        |  O(1)         | Yes        |
 | Selection   | O(N²)        |                 |  O(N)        |  O(1)         | Yes        |
-| Merge       | O(N log N)   |                 |  O(N)        |  O(1)         | Usually    |
+| Merge       | O(N log N)   |                 |  O(N log N)  |  O(1)         | Usually    |
 
 
 * **Bubble**: 
