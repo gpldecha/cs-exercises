@@ -5,7 +5,10 @@
 | Bubble      | O(N²)        |                 |  O(N)        |  O(1)         |
 | Selection   | O(N²)        |                 |  O(N)        |  O(1)         |
 
-* **Bubble advanage**: 
+* **Bubble**: 
+  
+  * can detect of the list is already sorted.
+  * the n-th pass finds the n-th largest element. 
 
 
 
