@@ -5,21 +5,15 @@
 | Bubble      | O(N²)        |                 |  O(N)        |  O(1)         |
 | Selection   | O(N²)        |                 |  O(N)        |  O(1)         |
 
-## simple sorts
-* Selection sort
+* **Bubble advanage**: 
 
-  time: O(N²)
-  space: O(N)
+
 
 * [Insertion sort](https://www.coursera.org/learn/algorithms-part1/lecture/1hYlN/insertion-sort) 
 
  time: O(1/4 N²)
  space: O(1/4 N^2)
 
-* Shell sort
-
- time: O(N^(3/2))
- 
 ## advanced sorts
  * [Merge sort](https://www.coursera.org/learn/algorithms-part1/lecture/ARWDq/mergesort)
  
