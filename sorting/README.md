@@ -1,15 +1,16 @@
 # Sorting
 
-| Sort        | Time (worst) |  Time (average) | Time (best)  | Space         |
-| :---        |     :---:    |            :---:|         :---:|         :---: |
-| Bubble      | O(N²)        |                 |  O(N)        |  O(1)         |
-| Selection   | O(N²)        |                 |  O(N)        |  O(1)         |
+| Sort        | Time (worst) |  Time (average) | Time (best)  | Space         |      |
+| :---        |     :---:    |            :---:|         :---:|         :---: | :---:|
+| Bubble      | O(N²)        |                 |  O(N)        |  O(1)         | Stable |
+| Selection   | O(N²)        |                 |  O(N)        |  O(1)         |       |
 
 * **Bubble**: 
   
   * can detect of the list is already sorted.
   * the n-th pass finds the n-th largest element. 
   * *Bubble sort is asymptotically equivalent in running time to insertion sort in the worst case, but the two algorithms differ greatly in the number of swaps necessary.*
+  * *Bubble sort also interacts poorly with modern CPU hardware. It produces at least twice as many writes as insertion sort, twice as many cache misses, and asymptotically more branch*
 
 
 
