@@ -1,4 +1,10 @@
 # Sorting
+
+| Sort        | Time           | Space         |
+| :---        |     :---:      |          ---: |
+| Bubble      | O(N^2)         | O(1)          |
+| Selection   | O(N^2)         | O(1)          |
+
 ## simple sorts
 * Selection sort
 
