@@ -2,8 +2,8 @@
 
 | Sort        | Time (worst) |  Time (average) | Time (best)  | Space         |
 | :---        |     :---:    |            :---:|         :---:|         :---: |
-| Bubble      | O(N²)        |                 |              |  O(1)         |
-| Selection   | O(N²)        |                 |              |  O(1)         |
+| Bubble      | O(N²)        |                 |  O(N)        |  O(1)         |
+| Selection   | O(N²)        |                 |  O(N)        |  O(1)         |
 
 ## simple sorts
 * Selection sort
