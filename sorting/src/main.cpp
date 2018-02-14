@@ -4,6 +4,7 @@
 
 #include <vector>
 #include <iostream>
+#include <algorithm>
 
 bool less_than (int i,int j) { return (i<j); }
 
