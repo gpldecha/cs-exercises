@@ -30,6 +30,12 @@ A good hash function h(key) = int needs the following properties:
     
     F(i) = i * Hash_2(x) : double hashing
 
+**which method is better to handle collisions**:
+
+Open Addressing: better cache performance (better memory usage, no pointers needed)
+
+Chaining: less sensitive to hash functions (OA requires extra care to avoid clustering)
+and the load factor α (OA degrades past 70% or so and in any event cannot support values larger than 1)
 
 ### references
 
