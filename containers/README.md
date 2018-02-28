@@ -21,8 +21,11 @@ A good hash function h(key) = int needs the following properties:
  * Seperate Chaining
  * Open Addressing
     h_i(x) = (Hash(x) + F(i)) % M
+    
     F(i) = i: linear probing
+    
     F(i) = i^2: quadratic probing
+    
     F(i) = i * Hash_2(x) : double hashing
 
 
