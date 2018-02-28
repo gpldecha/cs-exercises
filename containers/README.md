@@ -20,8 +20,10 @@ A good hash function h(key) = int needs the following properties:
  
  * Seperate Chaining
  * Open Addressing
+ 
     h_i(x) = (Hash(x) + F(i)) % M
-    
+    keep trying i = 1....M until a spot is found.
+ 
     F(i) = i: linear probing
     
     F(i) = i^2: quadratic probing
