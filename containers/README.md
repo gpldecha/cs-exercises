@@ -34,3 +34,4 @@ A good hash function h(key) = int needs the following properties:
 ### references
 
 [cs princeton](https://algs4.cs.princeton.edu/34hash/)
+[open addressing](https://www.cse.cuhk.edu.hk/irwin.king/_media/teaching/csc2100b/tu6.pdf)
