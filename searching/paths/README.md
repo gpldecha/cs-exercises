@@ -16,7 +16,7 @@ in the queue/heap.
 
 ## Floyd-Warshall
 
-* Shortest pathh between all nodes.
+* Shortest path between all nodes.
 * Positive or negative edges.
 * No cycles
 * O(nodes^3)
