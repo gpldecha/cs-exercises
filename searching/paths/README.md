@@ -13,3 +13,10 @@ in the queue/heap.
   
 
 
+## Floyd-Warshall
+
+* Shortest pathh between all nodes.
+* Positive or negative edges.
+* No cycles
+* O(nodes^3)
+* key idea : dist[i, j] = min(dist[i, j], dist[i, k] + dist[k, j])
