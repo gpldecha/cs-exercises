@@ -11,6 +11,7 @@ in the queue/heap.
   * if a FIFO queue is used dijikstra's method degenerates to a breadth-first-search
   * [wikipedia pseudocode](https://en.wikipedia.org/wiki/A%2a_search_algorithm): nodes cannot be re-visited, the cost function is assumed to be monotonic ([can-astar-visit-nodes-more-than-once](https://stackoverflow.com/questions/21441662/can-astar-visit-nodes-more-than-once))
   
+## Bellman-Ford
 
 
 ## Floyd-Warshall
