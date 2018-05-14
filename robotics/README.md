@@ -1,5 +1,10 @@
 # Robotics revision
 
+* dynamics
+* planning
+* closed-loop control
+* PID tuning
+
 ## inverse kinematics
 
 [ETH Lecture](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2017/4-kinematics_ex.pdf)
@@ -7,11 +12,6 @@
 ## Quaternions
 
 [Quaternion Kinematics Sola](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/QuaternionKinematicsSolaForETH.pdf)
-
-* dynamics
-* planning
-* closed-loop control
-* PID tuning
 
 ### Reference
 
