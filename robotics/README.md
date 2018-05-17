@@ -13,6 +13,10 @@
 
 [Quaternion Kinematics Sola](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/QuaternionKinematicsSolaForETH.pdf)
 
+## Planning
+
+[Planning algorithms](http://planning.cs.uiuc.edu/bookbig.pdf)
+
 ### Reference
 
 [Introduction to Robotics](https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/index.htm)
