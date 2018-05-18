@@ -19,7 +19,7 @@
 
 ## Differential equations
 
-(MIT videos)[https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/video-lectures/}
+[MIT videos](https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/video-lectures/)
 
 ### Reference
 
