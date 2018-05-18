@@ -17,6 +17,10 @@
 
 [Planning algorithms](http://planning.cs.uiuc.edu/bookbig.pdf)
 
+## Differential equations
+
+(MIT videos)[https://ocw.mit.edu/courses/mathematics/18-03-differential-equations-spring-2010/video-lectures/}
+
 ### Reference
 
 [Introduction to Robotics](https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/index.htm)
