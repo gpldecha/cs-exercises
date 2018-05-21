@@ -1,10 +1,38 @@
 from queue import Queue
-
+import numpy as np
 from heapdict import heapdict
 
 def astar_search(start, target, adjacency, heuristic):
     pass
 
+
+def floyd_warshall(adjacency):
+    num_states = len(adjacency)
+    dist = np.ones(shape=(num_states, num_states))*np.inf
+    next_ = np.zeros(shape=(num_states, num_states), dtype=np.int)
+    for state in range(len(adjacency)):
+        for next_state in adjacency[state, :]:
+            if next_state != -1:
+                dist[state, next_state] = 1
+                next_[state, next_state] = next_state
+
+    for k in range(num_states):
+        for j in range(num_states):
+            for i in range(num_states):
+                if dist[i, j] > dist[i, k] + dist[k, j]:
+                    dist[i, j] = dist[i, k] + dist[k, j]
+                    next_[i, j] = next_[i, k]
+    return dist, next_
+
+
+def get_path(next_, u, v):
+    if next_[u, v] == np.inf:
+        return []
+    path = [u]
+    while u != v:
+        u = next_[u, v]
+        path.append(u)
+    return path
 
 
 def djikstra_search(start, target, adjacency):

@@ -1,22 +1,12 @@
 from path_search import breadth_first_search
 from path_search import djikstra_search
+from path_search import floyd_warshall, get_path
 from utils import create_grid_adj, to_ij, to_idx
 import matplotlib.pyplot as plt
 import numpy as np
 
 
-
-if __name__ == "__main__":
-
-    n = 10
-    adj_matrix = create_grid_adj(n)
-
-    start_idx = to_idx(0, 0, n)
-    end_idx = to_idx(8, 8, n)
-
-    # path = breadth_first_search(start=start_idx, target=end_idx, adjacency=adj_matrix)
-    path = djikstra_search(start=start_idx, target=end_idx, adjacency=adj_matrix)
-
+def plot_path(path, start_idx, end_idx, n):
     plt.close('all')
     fig = plt.figure()
     plt.title('breadth first search')
@@ -42,4 +32,38 @@ if __name__ == "__main__":
     plt.yticks(np.arange(0, n+1, max(1, int(float(n)/max_show))))
     plt.axis('equal')
     plt.show()
+
+def example_path_search():
+    n = 10
+    adj_matrix = create_grid_adj(n)
+
+    start_idx = to_idx(0, 0, n)
+    end_idx = to_idx(8, 8, n)
+
+    # path = breadth_first_search(start=start_idx, target=end_idx, adjacency=adj_matrix)
+    path = djikstra_search(start=start_idx, target=end_idx, adjacency=adj_matrix)
+    plot_path(path, start_idx, end_idx, n)
+
+
+
+def example_floyd_walsh():
+    n = 10
+    adj_matrix = create_grid_adj(n)
+
+    dist, next_ = floyd_warshall(adj_matrix)
+
+    start_idx = to_idx(0, 0, n)
+    end_idx = to_idx(8, 8, n)
+    path = get_path(next_, start_idx, end_idx)
+
+    plot_path(path, start_idx, end_idx, n)
+
+
+    print('path     {}'.format(path))
+    print('next_    {}'.format(next_))
+
+if __name__ == "__main__":
+    example_floyd_walsh()
+
+
 
