@@ -28,3 +28,6 @@
 [Introduction to Robotics](https://ocw.mit.edu/courses/mechanical-engineering/2-12-introduction-to-robotics-fall-2005/index.htm)
 
 [Robot dynamics](http://www.rsl.ethz.ch/education-students/lectures/robotdynamics.html)
+
+[Newtonian Dynamics 
+](http://farside.ph.utexas.edu/teaching/336k/Newtonhtml/Newtonhtml.html)
