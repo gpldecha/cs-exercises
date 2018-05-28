@@ -35,3 +35,5 @@
 [MIT Classical mechanics](https://ocw.mit.edu/courses/physics/8-01sc-classical-mechanics-fall-2016/)
 
 [robotacademy](https://robotacademy.net.au/)
+
+[Control Bootcamp](https://www.youtube.com/watch?v=Pi7l8mMjYVE&list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m)
