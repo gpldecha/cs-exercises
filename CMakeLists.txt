@@ -16,12 +16,14 @@ set(PROJECT_DIR         ${CMAKE_CURRENT_SOURCE_DIR}                             
 
 
 
+
 message(status "    PROJECT_DIR: " ${PROJECT_DIR}                   )
 message(status "    CMAKE_INSTALL_PREFIX:" ${CMAKE_INSTALL_PREFIX}  )
 
 #add_subdirectory(trees)
 #add_subdirectory(string)
 #add_subdirectory(linkedlist)
+add_subdirectory(asio)
 add_subdirectory(searching)
 add_subdirectory(sorting)
 add_subdirectory(stl)
