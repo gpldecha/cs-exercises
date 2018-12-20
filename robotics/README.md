@@ -17,6 +17,8 @@
 
 [LQR Control California Institute of Technology](https://www.cds.caltech.edu/~murray/courses/cds110/wi06/lqr.pdf)
 
+[Optimization-Based Control](http://www.cds.caltech.edu/~murray/books/AM05/pdf/obc09-optimal_04Jan09.pdf)
+
 ## Quaternions
 
 [Quaternion Kinematics Sola](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/QuaternionKinematicsSolaForETH.pdf)
