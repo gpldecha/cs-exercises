@@ -5,11 +5,15 @@
 * closed-loop control
 * PID tuning
 
-## inverse kinematics
+## Inverse kinematics
 
 [ETH Lecture](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2017/4-kinematics_ex.pdf)
 
 [ETH Robot Dynamics 2016](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/RD2016script.pdf)
+
+## LQR
+
+[Introduction to Linear Quadratic Regulation, Buffalo University](http://www.ccs.neu.edu/home/rplatt/cs5335_2015/slides/lqr_writeup.pdf)
 
 ## Quaternions
 
