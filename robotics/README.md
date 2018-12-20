@@ -15,6 +15,8 @@
 
 [Introduction to Linear Quadratic Regulation, Buffalo University](http://www.ccs.neu.edu/home/rplatt/cs5335_2015/slides/lqr_writeup.pdf)
 
+[LQR Control California Institute of Technology](https://www.cds.caltech.edu/~murray/courses/cds110/wi06/lqr.pdf)
+
 ## Quaternions
 
 [Quaternion Kinematics Sola](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/QuaternionKinematicsSolaForETH.pdf)
