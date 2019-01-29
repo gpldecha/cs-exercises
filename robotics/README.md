@@ -11,6 +11,10 @@
 
 [ETH Robot Dynamics 2016](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/RD2016script.pdf)
 
+## Lectures
+
+[Marc Toussain](https://ipvs.informatik.uni-stuttgart.de/mlr/marc/teaching/14-Robotics/)
+
 ## LQR
 
 [Introduction to Linear Quadratic Regulation, Buffalo University](http://www.ccs.neu.edu/home/rplatt/cs5335_2015/slides/lqr_writeup.pdf)
