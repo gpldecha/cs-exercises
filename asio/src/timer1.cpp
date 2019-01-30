@@ -3,6 +3,7 @@
 #include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/bind.hpp>
 
+
 class printer
 {
 public:
@@ -44,6 +45,7 @@ private:
   boost::asio::io_service::strand strand_;
   boost::asio::deadline_timer timer_1;
   boost::asio::deadline_timer timer_2;
+  //boost::asio::buffer b;
   int count_;
 };
 

@@ -1,10 +1,19 @@
-set(CMAKE_BUILD_TYPE Release)
+set(CMAKE_BUILD_TYPE Debug)
+
+find_package(Boost REQUIRED system)
 
 add_executable(consumer ${CMAKE_CURRENT_SOURCE_DIR}/src/consumer.cpp)
 add_executable(producer ${CMAKE_CURRENT_SOURCE_DIR}/src/producer.cpp)
+add_executable(ipc_tests ${CMAKE_CURRENT_SOURCE_DIR}/src/tests.cpp)
+add_executable(tcp_producer ${CMAKE_CURRENT_SOURCE_DIR}/src/tcp_producer.cpp)
+add_executable(tcp_subscriber ${CMAKE_CURRENT_SOURCE_DIR}/src/tcp_subscriber.cpp)
+
 
 target_link_libraries(consumer -lrt)
 target_link_libraries(producer -lrt)
+target_link_libraries(tcp_producer  ${Boost_LIBRARIES} -lboost_thread )
+target_link_libraries(tcp_subscriber ${Boost_LIBRARIES} -lboost_thread )
+
 
 set_target_properties(consumer
     PROPERTIES
@@ -15,6 +24,12 @@ set_target_properties(producer
     PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin"
 )
+
+#set_target_properties(ipc_tests
+#    PROPERTIES
+#    RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin"
+#)
+
 
 
 find_package( PythonInterp 2.7 REQUIRED )
@@ -37,3 +52,5 @@ set_target_properties(pyipc
     PROPERTIES
     LIBRARY_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/lib"
 )
+
+
