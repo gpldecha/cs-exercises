@@ -10,3 +10,22 @@ def create_conv_net(input_shape=(32, 32, 3)):
     return model
 
 
+def create_keras_example_1(input_shape=(32, 32, 3), num_classes=10):
+    model = tf.keras.Sequential()
+    model.add(tf.keras.layers.InputLayer(input_shape=input_shape))
+    model.add(tf.keras.layers.Conv2D(32, (3, 3), padding='same', activation=tf.keras.layers.ReLU(), input_shape=input_shape))
+    model.add(tf.keras.layers.Conv2D(32, (3, 3), activation=tf.keras.layers.ReLU()))
+    model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+    model.add(tf.keras.layers.Dropout(0.25))
+
+    model.add(tf.keras.layers.Conv2D(64, (3, 3), padding='same', activation=tf.keras.layers.ReLU()))
+    model.add(tf.keras.layers.Conv2D(64, (3, 3), activation=tf.keras.layers.ReLU()))
+    model.add(tf.keras.layers.MaxPooling2D(pool_size=(2, 2)))
+    model.add(tf.keras.layers.Dropout(0.25))
+
+    model.add(tf.keras.layers.Flatten())
+    model.add(tf.keras.layers.Dense(512, activation=tf.keras.layers.ReLU()))
+    model.add(tf.keras.layers.Dropout(0.5))
+    model.add(tf.keras.layers.Dense(num_classes, activation=tf.keras.activations.softmax))
+
+    return model
