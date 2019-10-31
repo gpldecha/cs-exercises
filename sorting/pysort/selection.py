@@ -13,6 +13,7 @@ def sort(a):
         a[i], a[min_idx] = a[min_idx], a[i]
     return a
 
+
 if __name__ == "__main__" :
 
     print(sort([6, 5, 4, 3, 2, 1]))
