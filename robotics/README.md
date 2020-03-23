@@ -27,6 +27,8 @@
 
 [Quaternion Kinematics Sola](https://www.ethz.ch/content/dam/ethz/special-interest/mavt/robotics-n-intelligent-systems/rsl-dam/documents/RobotDynamics2016/QuaternionKinematicsSolaForETH.pdf)
 
+[Quaternion handout](http://web.cs.iastate.edu/~cs577/handouts/quaternion.pdf)
+
 ## Planning
 
 [Planning algorithms](http://planning.cs.uiuc.edu/bookbig.pdf)
