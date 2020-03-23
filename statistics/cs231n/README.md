@@ -1,0 +1,1 @@
+[Assignment 2](http://cs231n.github.io/assignments2019/assignment2/)
